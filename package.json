@@ -2,6 +2,7 @@
     "name": "berlin-devs",
     "version": "0.0.1",
     "description": "actano member checker",
+    "repository": "https://github.com/timaschew/berlin-devs",
     "keywords": [
         "berlin",
         "coffeescript",
