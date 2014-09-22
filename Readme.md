@@ -6,4 +6,4 @@
 
 # Usage
 
-`npm run`
+`npm start`
