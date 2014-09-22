@@ -1,23 +1,23 @@
 {
-  "name": "berlin-devs",
-  "version": "0.0.1",
-  "description": "actano member checker",
-  "keywords": [
-  	"berlin",
-  	"coffeescript",
-  	"javascript",
-  	"developer",
-  	"node.js",
-  	"nosql",
-  	"scrum"
-  ],
-  "dependencies": {
-    "cheerio": "^0.17.0",
-    "coffee-script": "^1.8.0",
-    "superagent": "^0.18.2"
-  },
-  "main": "index.coffee",
-  "scripts": {
-	"start": "node_modules/.bin/coffee index.coffee"
-  }
+    "name": "berlin-devs",
+    "version": "0.0.1",
+    "description": "actano member checker",
+    "keywords": [
+        "berlin",
+        "coffeescript",
+        "javascript",
+        "developer",
+        "node.js",
+        "nosql",
+        "scrum"
+    ],
+    "dependencies": {
+        "cheerio": "^0.17.0",
+        "coffee-script": "^1.8.0",
+        "superagent": "^0.18.2"
+    },
+    "main": "index.coffee",
+    "scripts": {
+        "start": "node_modules/.bin/coffee index.coffee"
+    }
 }
