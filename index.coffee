@@ -43,6 +43,7 @@ request.get url, (err, res) ->
     catch err
         console.log 'AssertionError:'
         console.log '  \u001b[31m' + err.message
+        process.exit 1
 
     # reset CLI color
     console.log '\u001b[0m'
