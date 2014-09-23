@@ -8,4 +8,4 @@
 
 # Usage
 
-`npm start`
+`npm test`
