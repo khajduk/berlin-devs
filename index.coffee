@@ -38,7 +38,11 @@ request.get url, (err, res) ->
             check = teamGithubUsernames.indexOf(canidate) != -1
             assert.equal check, true, "'#{canidate}' is not member yet"
 
+        assert.equal teamGithubUsernames.length, expected.length, "length does not match"
         console.log '\u001b[32m \u2714 passend'
     catch err
         console.log 'AssertionError:'
         console.log '  \u001b[31m' + err.message
+
+    # reset CLI color
+    console.log '\u001b[0m'
