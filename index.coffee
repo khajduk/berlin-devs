@@ -34,9 +34,9 @@ request.get url, (err, res) ->
     ]
 
     try
-        for canidate in expected
-            check = teamGithubUsernames.indexOf(canidate) != -1
-            assert.equal check, true, "'#{canidate}' is not member yet"
+        for candidate in expected
+            check = teamGithubUsernames.indexOf(candidate) != -1
+            assert.equal check, true, "'#{candidate}' is not member yet"
 
         assert.equal teamGithubUsernames.length, expected.length, "length does not match"
         console.log '\u001b[32m \u2714 passend'
