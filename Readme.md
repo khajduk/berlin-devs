@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/timaschew/berlin-devs.png)](https://travis-ci.org/timaschew/berlin-devs)
+[![Build Status](https://travis-ci.org/timaschew/berlin-devs.svg?branch=master)](https://travis-ci.org/timaschew/berlin-devs)
 
 # Installation
 
