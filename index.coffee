@@ -31,6 +31,7 @@ request.get url, (err, res) ->
         'katrinkat'
         'fschoenfelder'
         'kenansulayman'
+        'mmalecki'
     ]
 
     try
