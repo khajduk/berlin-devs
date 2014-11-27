@@ -11,7 +11,7 @@ request.get url, (err, res) ->
     html = res.text
     $ = cheerio.load html
     
-    teamGithubUsernames = $('.fa-github').map( ->
+    teamGithubUsernames = $('div.team .fa-github').map( ->
         $(this).parent().attr('href').substr 'https://github.com/'.length
     ).get()
 
